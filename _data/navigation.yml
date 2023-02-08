@@ -1,0 +1,7 @@
+main:
+  #- title: "Home"
+  #  url: "/"
+  - title: "Category"
+    url: "/categories/"
+  - title: "Tags"
+    url: /tags/

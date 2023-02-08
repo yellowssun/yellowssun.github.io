@@ -1,0 +1,36 @@
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+kramdown:
+  math_engine: katex
+plugins:
+  - jekyll-include-cache
+  - jekyll-katex
+minimal_mistakes_skin: "default"
+locale: "en-US"
+title: "My Awesome Site"
+subtitle: "Version 2.0"
+name: "Byungsun Hwang"
+description: "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+url: "https://yellowssun.github.io"
+repository: "yellowssun/yellowssun.github.io"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      # comments: true
+      # share: true
+      # related: true
+
+# Outputting
+permalink: /:categories/:title/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
