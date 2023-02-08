@@ -113,7 +113,7 @@ $$\int_{-\infty}^\infty x(t)\delta(t-t_0)dt=x(t_0)$$
 
 ### 3. 1 Energy Spectral Density @ESD
 
-* Non-periodic signal $$x(t)$$는 푸리에 변환을 통해 $$X(f)$$로 표현될 수 있다. ESD는 주파수 함수로써의 에너지 분포로 __@Parseval's theorem__을 통해 시간 영역에서 구한 총 에너지와 동일 함을 알 수 있다.
+* Non-periodic signal $$x(t)$$는 푸리에 변환을 통해 $$X(f)$$로 표현될 수 있다. ESD는 주파수 함수로써의 에너지 분포로 [Parseval's theorem](2023-02-08-parsevals-theorem.md)을 통해 시간 영역에서 구한 총 에너지와 동일 함을 알 수 있다.
 * $$Total\;Energy: E_x=\int_{-\infty}^{\infty}{x^2}(t)dt=\int_{-\infty}^\infty|X(f)|df$$
 * 추가적으로 __@Wiener-Khinchine Theorem__를 통해 Autocorrelation function의 Fourier Transform은 ESD와 동일 함을 알 수 있다. 즉, 주파수 영역 전제를 적분하면 총 에너지가 된다.
 * $$Autocorrelation function: R_x(\tau)=\int_{-\infty}^{\infty}{x}(t){x}(t+\tau)dt$$
